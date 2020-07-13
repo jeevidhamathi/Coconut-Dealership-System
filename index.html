@@ -1,0 +1,24 @@
+<html>
+<head>
+    <title>Login</title>
+    <link rel="stylesheet" type="text/css" href="style.css">   
+</head>
+    <body>
+	<form action="redirect.php" id="#form" method="post" name="#form">
+    <div class="login-box">
+    <img src="image.png" class="avatar">
+        <h1>LOGIN</h1>
+            <h3><center><label><p>OCCUPATION</p></label></center></h3>
+            <center><select id="Occupation" name="occupation"></center>
+            <option selected="selected">CHOOSE YOUR OCCUPATION</option>
+            <option value="seller">SELLER</option>
+            <option value="buyer">BUYER</option>
+            </select>
+			<br><br>
+            <input type="submit" name="submit" value="Submit">
+			<input type="button" onClick=window.open("select.php"); value="Find">
+		    <input type="button" onClick=window.open("delete.php"); value="Delete">
+			</form>
+        </div>
+   </body>
+</html>
